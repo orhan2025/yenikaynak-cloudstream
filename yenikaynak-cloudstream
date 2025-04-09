@@ -1,0 +1,57 @@
+{
+  "name": "Yeni Kaynak",
+  "baseUrl": "https://www.yenikaynak.com",
+  "logo": "https://www.yenikaynak.com/images/logo.png",
+  "version": "1.0",
+  "categories": [
+    {
+      "name": "Tasavvufi Filmler",
+      "url": "/tasavvufi-filmler"
+    },
+    {
+      "name": "Aile Filmleri",
+      "url": "/aile-filmleri"
+    },
+    {
+      "name": "Gençlik Filmleri",
+      "url": "/genclik-filmleri"
+    },
+    {
+      "name": "Savaş Filmleri",
+      "url": "/savas"
+    },
+    {
+      "name": "Komedi Filmleri",
+      "url": "/komedi-filmleri"
+    },
+    {
+      "name": "Romantik Filmleri",
+      "url": "/romantik-filmleri"
+    },
+    {
+      "name": "Tarihi Filmler ve Diziler",
+      "url": "/tarihi-film-ve-diziler"
+    },
+    {
+      "name": "Dram Filmleri",
+      "url": "/dram-filmleri"
+    }
+  ],
+  "search": {
+    "url": "/arama?q={query}",
+    "method": "GET"
+  },
+  "media": {
+    "list": {
+      "selector": ".film-listesi .film-item",
+      "title": ".film-baslik",
+      "image": ".film-resim img",
+      "link": ".film-link"
+    },
+    "details": {
+      "title": ".detay-baslik",
+      "description": ".detay-aciklama",
+      "videoUrl": ".video-iframe"
+    }
+  }
+}
